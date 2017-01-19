@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'exo';
+  src: url("Fonts/exo-regular-webfont.woff2") format("woff2"), url("Fonts/exo-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'vollkorn';
+  src: url("Fonts/vollkorn-semibold-webfont.woff2") format("woff2"), url("Fonts/vollkorn-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body,
+.navbar-default,
+.navbar-brand{
+	background-color: #000;
+	color: #eac67a;
+	font-family: "exo";
+
+}
+.jumbotron{
+	background-image: url("../grafik/city_ljus.jpg");
+	background-size: 100%;
+	background-position: center center;
+}
+.jumbotron p{
+	font-size: 0.9em;
+}
+.btn-primary{
+	background-color: #984B43;
+  	color: #eac67a;
+  	font-size: 1.4em;
+  	border: none;
+  	border-radius: 30%;
+  	padding: 0.5em;
+}
+
+.row{
+	background-color: #984B43;
+	color: #eac67a;
+	padding: 0.5em;
+
+
+}
+.col-sm-6{
+	background-color: #984B43;
+	color: #eac67a;
+
+}
+
+h1,
+h2,
+{
+	font-family: "vollkorn";
+	font-weight: 700;
+
+}
+
+h1
+{
+	font-size: 1.5em;
+}
+h2{
+	font-size: 1.4em;
+}
+a,
+p{
+	color: #eac67a;
+	font-size: 1.2em;
+}
+label{
+	font-weight: 500;
+}
+a:hover{
+	color: #984B43;
+	text-decoration: none;
+}
